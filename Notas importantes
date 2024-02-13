@@ -18,3 +18,100 @@ string: "nome", "palavras", "google"
 boolean: true e false
 
 para descobrir o tipo d variável se usa o comando: typeof (variável)
+
+O window.prompt retorna o valor sempre como string
+
+Converter string para número:
+
+Number.parseInt: Serve para converter uma em numero inteiro
+Number.parseFloat: serve para converter uma em numero quebrado
+Number: serve para converter para número independente se for inteiro ou quebrado
+
+Converter número para string:
+
+n.toString()
+String(n)
+
+Template string:
+
+${} : facilita na concatenação
+
+obs: se usa a crase (``) nesse caso 
+
+Formatando strings: 
+
+s.length: quantos caracteres a string tem
+s.toUpperCase(): tudo para MAIÚSCULAS
+s.toLowerCase(): tudo para minúsculas
+
+Formatando números:
+
+n1.toFixed(): serve para adicionar a quantidade de casas decimais serão puladas
+
+Comandos de ação:
+
+window.alert('Teste'): cria uma caixa de alerta
+window.confirm('Clique em ok para confirmar'): cria uma caixa com um botão de confirmar 
+window.prompt('Digite seu nome'): cria uma caixa com a opção de escrever algo 
+
+n1.toLocaleString(`pt-br`, {style: `currency`: `BRL`}): serve para conversão de moeda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
