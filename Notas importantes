@@ -1,0 +1,20 @@
+As variáveis também são conhecidas como indentificadores.
+
+São aplicadas algumas regras para esses indetificadores:
+
+- Podem começar com letra, $ ou _
+- Não podem começar com números 
+- É possível usar letras ou números
+- É Possível usar acentos e símbolos
+- Não podem conter espaços 
+- Não podem ser palavras reservadas
+- Maiúsculas e minúsculas fazem diferença
+- Tente criar nomes coerentes para uma variável
+
+Tipos:
+
+number: 5, 18, -12, 0.5, -15.9, 3.14, 8.0
+string: "nome", "palavras", "google"
+boolean: true e false
+
+para descobrir o tipo d variável se usa o comando: typeof (variável)
