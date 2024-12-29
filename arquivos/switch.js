@@ -1,3 +1,5 @@
+//switch
+
 let semana = 7
 //referẽncia 1 = segunda
 
