@@ -15,7 +15,7 @@ if((num1 < num2) && (num3 < num2)){
 } //true
 
 if(!num1){
-    console.log("fslse")
+    console.log("false")
 }else{
 console.log("false")//false
 }
