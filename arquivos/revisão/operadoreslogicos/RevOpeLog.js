@@ -11,4 +11,8 @@ if(num2 && num3 > num1){
 }
 if((num1 < num3) || (num2 > num3)){
     console.log("true")
-}if(!num1)
+}if(!num1){
+    console.log('num1 alterado')
+}else{
+    console.log("false")
+}
