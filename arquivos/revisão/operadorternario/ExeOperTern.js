@@ -11,4 +11,6 @@ let valor = 0
 
 valor = parseFloat(prompt("Digite o valor do teste"))
 
-console.log(valor%2 == 0 ? "par" : "impar")
+let res = (valor%2 == 0) ? "par" : "impar"
+
+console.log(res)
