@@ -10,14 +10,33 @@ let notamario = 8
 let notajoao = 6
 let notajoana = 7
 
+let mediaaprovado = 7
+
 console.log(aluno1 + " tem nota " + notamario)
 console.log(aluno2 + " tem nota " + notajoao)
 console.log(aluno3 + " tem nota " + notajoana)
+console.log("----------")
 
+if(notamario >= mediaaprovado){
+    console.log("mario está aprovado")
+}else
+    console.log("mario está reprovado")
+
+if(notajoao >= mediaaprovado){
+    console.log("joão está aprovado")
+}else
+    console.log("joão está reprovado")
+
+if(notajoana >= mediaaprovado){
+    console.log("joana está aprovado")
+}else
+    console.log("joana está reprovado")
+
+console.log('----------')
 let media = (notamario + notajoao + notajoana) / 3
 
 console.log("A média das notas dos três alunos é de: " + media)
 console.log("----------")
 console.log("Tipos de variaveis usadas: " + typeof(aluno1) + " e " + typeof(notajoana))
 
-
+console.log('Fim do programa')
