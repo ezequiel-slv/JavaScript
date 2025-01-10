@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operador Unário</title>
+</head>
+<body>
+    <script>
+        //faça um programa que calcule média aritimética de 3 alunos e classifique eles de acordo com a pontuação
+
+        //obs: utilize o operador unário
+
+        let aluno1 = "mario"
+        let aluno2 = "joão"
+        let aluno3 = "joana"
+
+        let notamario = 8
+        let notajoao = 6
+        let notajoana = 7
+
+        let mediaaprovado = 7
+
+        console.log(aluno1 + " tem nota " + notamario)
+        console.log(aluno2 + " tem nota " + notajoao)
+        console.log(aluno3 + " tem nota " + notajoana)
+        console.log("----------")
+
+        if(notamario >= mediaaprovado){
+            console.log("mario está aprovado")
+        }else
+            console.log("mario está reprovado")
+
+        if(notajoao >= mediaaprovado){
+            console.log("joão está aprovado")
+        }else
+            console.log("joão está reprovado")
+
+        if(notajoana >= mediaaprovado){
+            console.log("joana está aprovado")
+        }else
+            console.log("joana está reprovado")
+
+        console.log('----------')
+        let media = (notamario + notajoao + notajoana) / 3
+
+        console.log("A média das notas dos três alunos é de: " + media)
+        console.log("----------")
+        console.log("Tipos de variaveis usadas: " + typeof(aluno1) + " e " + typeof(notajoana))
+
+        console.log('Fim do programa')
+    </script>
+</body>
+</html>
