@@ -6,6 +6,7 @@ for (let i = 1; i < 11; i++) {
     console.log("iteração: " + i)
 }
 
+console.log("----------")
 console.log("Exercício 2")
 
 let soma = 0
